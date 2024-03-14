@@ -8,9 +8,8 @@ const ReportPage = async () => {
 			revalidate: 10,
 		},
 	});
-	// const { todoList } = await response.json();
+
 	const todoList = await response.json();
-	// console.log(todoList);
 
 	const workingTodo = todoList.filter((todoItem: TodoType) => todoItem.isDone === false).length;
 	const doneTodo = todoList.filter((todoItem: TodoType) => todoItem.isDone === true).length;

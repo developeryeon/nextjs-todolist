@@ -2,9 +2,9 @@
 
 import React from 'react';
 import useTodosQuery from '../hooks/useTodosQuery';
-import { isDoneData } from '@/types';
+import { isDoneType } from '@/types';
 
-const TodoList = ({ isDone }: isDoneData) => {
+const TodoList = ({ isDone }: isDoneType) => {
 	const { todoList, isLoading, isError, isSuccess, updateTodoMutation, deleteTodoMutation } = useTodosQuery();
 	console.log(updateTodoMutation);
 
@@ -29,7 +29,6 @@ const TodoList = ({ isDone }: isDoneData) => {
 								</p>
 
 								<div>
-									{/* <button onClick={() => updateTodoMutation(todoItem)}>{todoItem.isDone ? '취소' : '완료'}</button> */}
 									<button onClick={() => updateTodoMutation({ ...todoItem, isDone: !todoItem.isDone })}>{todoItem.isDone ? '취소' : '완료'}</button>
 									<br />
 									<button onClick={() => deleteTodoMutation(todoItem)}>삭제</button>

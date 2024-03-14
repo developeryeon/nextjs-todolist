@@ -5,12 +5,12 @@ export interface TodoType {
 	isDone: boolean;
 }
 
-export interface companyType {
+export type CompanyType = {
 	name: string;
 	desctiption: string;
 	image: string;
-}
+};
 
-export type isDoneData = {
+export type isDoneType = {
 	isDone: boolean;
 };
