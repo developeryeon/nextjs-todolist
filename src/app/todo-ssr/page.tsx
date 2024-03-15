@@ -10,12 +10,12 @@ const TodoSSRPage = async () => {
 
 	return (
 		<section>
-			<div>
+			<div className="text-2xl">
 				<Link href={'/report'}>할일 정보 통계 보러가기</Link>
 			</div>
 			<hr />
-			<div>
-				<h2>Working..!🔥</h2>
+			<div className="bg-indigo-100 outline outline-offset-2  max-w-96">
+				<h2 className="text-3xl text-black ml-4 ">Working..!🔥</h2>
 				<div>
 					{todoList
 						.filter((todoItem) => {
@@ -35,7 +35,7 @@ const TodoSSRPage = async () => {
 			</div>
 			<br />
 			<div>
-				<h2>Done..!🎉</h2>
+				<h2 className="text-3xl text-black ml-4">Done..!🎉</h2>
 				<div>
 					{todoList
 						.filter((todoItem) => {
