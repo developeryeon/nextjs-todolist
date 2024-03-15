@@ -1,33 +1,39 @@
 {
-	"companyInfo": {
-		"name": "주식회사 팀스파르타",
-		"desctiption": "우리회사에 대한 설명입니다. 이곳은 nextJS + typeScript를 이용한 todo-list입니다. ",
-		"image": "https://i.ibb.co/hC3j57n/image.jpg"
-	},
-	"todos": [
-		{
-			"id": "1",
-			"title": "카페 가기",
-			"contents": "아메리카노 마시기",
-			"isDone": false
-		},
-		{
-			"id": "2",
-			"title": "책읽기",
-			"contents": "next.js 책 읽기",
-			"isDone": true
-		},
-		{
-			"id": "3",
-			"title": "타입스크립트 공부하기",
-			"contents": "타입스크립트 정리",
-			"isDone": true
-		},
-		{
-			"id": "1,710,423,822,775",
-			"title": "123",
-			"contents": "aaaaa",
-			"isDone": false
-		}
-	]
+  "companyInfo": {
+    "name": "주식회사 팀스파르타",
+    "desctiption": "우리회사에 대한 설명입니다. 이곳은 nextJS + typeScript를 이용한 todo-list입니다. ",
+    "image": "https://i.ibb.co/hC3j57n/image.jpg"
+  },
+  "todos": [
+    {
+      "id": "2",
+      "title": "책읽기",
+      "contents": "next.js 책 읽기",
+      "isDone": false
+    },
+    {
+      "id": "3",
+      "title": "타입스크립트 공부하기",
+      "contents": "타입스크립트 정리",
+      "isDone": true
+    },
+    {
+      "id": "1,710,423,822,775",
+      "title": "123",
+      "contents": "aaaaa",
+      "isDone": true
+    },
+    {
+      "id": "1,710,463,373,055",
+      "title": "ㅁㄴㅇ",
+      "contents": "ㅋㅋㅋㅋ",
+      "isDone": false
+    },
+    {
+      "id": "1,710,464,421,771",
+      "title": "ㄴㅇㄹ",
+      "contents": "ㅊㅌ",
+      "isDone": false
+    }
+  ]
 }
