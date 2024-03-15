@@ -7,7 +7,7 @@ export interface TodoType {
 
 export type CompanyType = {
 	name: string;
-	desctiption: string;
+	description: string;
 	image: string;
 };
 
